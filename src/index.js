@@ -9,6 +9,12 @@ module.exports = function getTimeForEducation(
     knowsProgramming = true,
     config = {family: 4}
     ) {
-      return 0;
-  };
-  
+      if (knowsProgramming = true && focus=='family' && config) {
+        return 200;
+      }
+      else {
+        return 80;
+      };
+      console.log(config);
+
+    } 
