@@ -13,7 +13,7 @@ module.exports = function getTimeForEducation(
         return 200;
       }
       else {
-        return 20;
+        return 27;
       };
       let weeks = getTimeForEducation('family', true, speedConfig);
   console.log(weeks);
